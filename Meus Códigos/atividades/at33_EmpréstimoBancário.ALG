@@ -1,21 +1,19 @@
-algoritmo "at33_EmprÈstimoBanc·rio"
+algoritmo "at33_Empr√©stimoBanc√°rio"
 var
    ValorCasa, Sal, SalEmprestimo, Prestacao: real
    Ano: inteiro
 inicio
       escreva ("Qual o valor da casa? R$")
       leia (ValorCasa)
-      escreva ("Qual o sal·rio do comprador? R$")
+      escreva ("Qual o sal√°rio do comprador? R$")
       leia (Sal)
       escreva ("Em quantos anos o comprador vai pagar? ")
       leia (Ano)
       SalEmprestimo <- Sal * 0.3
       Prestacao <- ValorCasa/(Ano*12)
       se (Prestacao <= SalEmprestimo) entao
-         escreva ("Seu EmprÈstimo Banc·rio foi Aprovado.")
+         escreva ("Seu Empr√©stimo Banc√°rio foi Aprovado.")
       senao
-           escreva ("Seu EmprÈstimo Banc·rio foi Negado.")
+           escreva ("Seu Empr√©stimo Banc√°rio foi Negado.")
       fimse
-      
-
 fimalgoritmo
