@@ -1,0 +1,20 @@
+algoritmo "at69_P.A"
+var
+   Termo, Razao, C, A, Soma, Somatorio, Final: Inteiro
+inicio
+   Escreva("Digite o primeiro Termo de uma Progressão Aritmética: ")
+   Leia (Termo)
+   Escreva("Digite a Razão dessa P.A: ")
+   Leia (Razao)
+   Escreva("(",Termo,",")
+   A <- Termo
+      Para C <- 1 Ate 9 Faca
+         Escreva(A + Razao,",")
+         Soma <- A + Razao
+         Somatorio <- Somatorio + Soma
+         A <- A + Razao
+      FimPara
+      Final <- A + Razao
+      Escreval(Final,")")
+      Escreva("A Soma dessa P.A é",Somatorio + Termo + Final)
+fimalgoritmo
