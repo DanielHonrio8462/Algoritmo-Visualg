@@ -1,2 +1,2 @@
-# Algoritmo-Visualg
+# AlgoritmoVisualg
  Aprendizadod
